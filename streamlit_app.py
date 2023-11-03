@@ -9,6 +9,8 @@ streamlit.text('🐔 Hard Boiled Free-Range Egg')
 streamlit.text('🥑🍞Hard-Boiled Free-Range Egg')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
+streamlit.write('The user entered ', fruit_choice)
 
 
 import pandas
